@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-image: linear-gradient(to right, #d4c0d9 1%, #a982b4 50%);
+}
+nav{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 15%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+.menu{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 4%;
+    
+}
+.button{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bar{
+   
+    
+    display: none;  
+    
+    
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    background-color: #b59bbd ;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #d4c0d9 1%, #a982b4 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border: solid;
+    border-width: 1px;
+    border-color: silver;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:650px)
+{
+    header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background-image: linear-gradient(to right, #d4c0d9 1%, #a982b4 50%);
+    }
+    nav{
+        width: 90%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .logo{
+        width: 15%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+          
+    }
+    .menu{
+        width: 50%;
+        height: 80px;
+        display: none;
+        align-items: center;
+        justify-content: right;
+        gap: 4%;
+        
+    }
+    .button{
+        width: 20%;
+        height: 80px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bar{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: 25px;
+    }
+    li{
+        list-style: none;
+        cursor: pointer;
+    }
+    li:hover{
+        background-color: rgb(230, 228, 228);
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+         background-image: linear-gradient(to right, purple 5%, rgb(202, 172, 202) 80%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+}
+.container{
+    width: 100%;
+   
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,  #ad92b4 1%, #d4c0d9 40%);
+
+}
+.main{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+.main1{
+    width: 48%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+.main2{
+    width: 48%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+   
+}
+.main-a{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 30px;
+}
+.main-b{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 15px;
+    color: gray;
+}
+.main-c{
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.purple{
+    color: purple;
+}
+.btns{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #4776E6 20%, #8E54E9 50%);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 1s;
+}
+.btns:hover{
+    transform: scale(1.01);
+
+}
+.main2 >img{
+    width: 100%;
+    height: 80%;
+}
+@media screen and  (max-width:750px)
+{
+    .main{
+        width: 90%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        flex-wrap: wrap;
+    }
+    .main1{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+    
+    }
+    .main2{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+       
+       
+    }
+    
+
+}
